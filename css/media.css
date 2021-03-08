@@ -1,0 +1,116 @@
+@media (max-width:1130px) {
+    .s2 {
+        background-position: left !important;
+    }
+}
+
+@media (max-width:1067px) {
+    .s4 {
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+        padding-top: 25px;
+    }
+}
+
+@media (max-width:874px) {
+    .s3 {
+        background-image: none !important;
+    }
+
+    .s3_swiper {
+        margin: 0 auto;
+        padding-top: 60px !important;
+    }
+}
+
+@media (max-width:709px) {
+    .s6_download {
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+        -ms-align-items: center;
+        align-items: center;
+    }
+
+    .s6_link {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:555px) {
+    .header_logo {
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .header_menu {
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+        padding-top: 100px !important;
+    }
+
+    .header_item {
+        padding-top: 10px;
+    }
+
+    .header_content {
+        margin-top: 100px !important;
+    }
+
+    .s2_wrap {
+        padding-top: 110px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        margin: 0 auto !important;
+    }
+}
+
+@media (max-width:457px) {
+    .foot_container {
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .logo_img {
+        margin-top: 20px;
+        align-self: center;
+    }
+
+    .titles {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .titles > a {
+        margin-bottom: 20px;
+    }
+
+    .css {
+        max-width: 200px;
+    }
+
+    .foot_container {
+        align-items: flex-start
+    }
+}
